@@ -7,10 +7,27 @@
 *.obj
 *.elf
 
+# Danmakufu Engine Binaries
+*.exe
+*.dll
+*.pdb
+
+# Danmakufu Output
+*.bak
+*.log
+*.tmp
+
+# Common text editor backup files 
+*~
+*.swp
+*.swo
+*.swn
+*.orig
+*.old
+
 # Linker output
 *.ilk
 *.map
-*.exp
 
 # Precompiled Headers
 *.gch
@@ -23,7 +40,6 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
@@ -40,7 +56,6 @@
 *.dSYM/
 *.su
 *.idb
-*.pdb
 
 # Kernel Module Compile Results
 *.mod*
